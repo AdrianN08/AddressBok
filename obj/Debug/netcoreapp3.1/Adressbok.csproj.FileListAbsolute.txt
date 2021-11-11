@@ -1,0 +1,17 @@
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\Adressbok.exe
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\Adressbok.deps.json
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\Adressbok.runtimeconfig.json
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\Adressbok.runtimeconfig.dev.json
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\Adressbok.dll
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\Adressbok.pdb
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.csproj.AssemblyReference.cache
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.Form1.resources
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.csproj.GenerateResource.cache
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.AssemblyInfoInputs.cache
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.AssemblyInfo.cs
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.csproj.CoreCompileInputs.cache
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.dll
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.pdb
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.genruntimeconfig.cache
+C:\Users\Adria\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.Properties.Resources.resources
