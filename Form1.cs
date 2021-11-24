@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 
 
-namespace Adressbok
+namespace Addressbok
 {
     public partial class Form1 : Form
     {

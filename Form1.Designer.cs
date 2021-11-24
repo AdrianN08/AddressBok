@@ -1,5 +1,5 @@
 ﻿
-namespace Adressbok
+namespace Addressbok
 {
     partial class Form1
     {
