@@ -5,7 +5,6 @@ D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsup
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\AddressBok.dll
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\bin\Debug\netcoreapp3.1\AddressBok.pdb
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.csproj.AssemblyReference.cache
-D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Adressbok.Form1.resources
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.Properties.Resources.resources
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.csproj.GenerateResource.cache
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +14,4 @@ D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsup
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.dll
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.pdb
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.genruntimeconfig.cache
+D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Addressbok.Form1.resources
