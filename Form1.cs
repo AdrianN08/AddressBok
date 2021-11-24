@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 
 
-namespace Addressbok
+namespace Addressbook
 {
     public partial class Form1 : Form
     {
@@ -149,13 +149,13 @@ namespace Addressbok
             tbxEmail.Text = myContacts[lbxContactsInfo.SelectedIndex].Email;
 
             lblTitle.Text = "Search, Edit Or Remove Contact";
-            lblContactList.Text = " My Contacts: " + myContacts.Count;
             grpContact.Text = "Edit Contact";
-            BtnLbxIndex();
+            lblContactList.Text = " My Contacts: " + myContacts.Count;
+            BtnLbxIndex();         
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
-        {
+        {   
             cbxSortBy.SelectedIndex = -1;
             if (cbxSearch.SelectedIndex == -1)
             {

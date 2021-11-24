@@ -14,4 +14,4 @@ D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsup
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.dll
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.pdb
 D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\AddressBok.genruntimeconfig.cache
-D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Addressbok.Form1.resources
+D:\Downloads\OneDrive\Skrivbord\Skolan\Nackademin\Programmering C#\Inlämningsuppgift\Adressbok\obj\Debug\netcoreapp3.1\Addressbook.Form1.resources

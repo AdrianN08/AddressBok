@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Addressbok
+namespace Addressbook
 {
     public class FileManager : Imanager
     {
