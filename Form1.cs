@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Linq;
 
 
 namespace Addressbook
@@ -9,7 +10,9 @@ namespace Addressbook
     {
         FileManager manager = new FileManager();
         List<Contact> myContacts = new List<Contact>();
+        List<Contact> mySearchContacts = new List<Contact>();
         string fileName;
+        bool mySearch = false;
         bool myNewBook = false;
         public Form1()
         {
@@ -140,42 +143,75 @@ namespace Addressbook
 
         private void lbxContactsInfo_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (lbxContactsInfo.SelectedIndex == -1) return;
-            tbxName.Text = myContacts[lbxContactsInfo.SelectedIndex].Name;
-            tbxAdress.Text = myContacts[lbxContactsInfo.SelectedIndex].Adress;
-            tbxZipCode.Text = myContacts[lbxContactsInfo.SelectedIndex].ZipCode;
-            tbxCity.Text = myContacts[lbxContactsInfo.SelectedIndex].City;
-            tbxPhoneNr.Text = myContacts[lbxContactsInfo.SelectedIndex].PhoneNr;
-            tbxEmail.Text = myContacts[lbxContactsInfo.SelectedIndex].Email;
+            //if (lbxContactsInfo.SelectedIndex == -1) return;
+            //tbxName.Text = myContacts[lbxContactsInfo.SelectedIndex].Name;
+            //tbxAdress.Text = myContacts[lbxContactsInfo.SelectedIndex].Adress;
+            //tbxZipCode.Text = myContacts[lbxContactsInfo.SelectedIndex].ZipCode;
+            //tbxCity.Text = myContacts[lbxContactsInfo.SelectedIndex].City;
+            //tbxPhoneNr.Text = myContacts[lbxContactsInfo.SelectedIndex].PhoneNr;
+            //tbxEmail.Text = myContacts[lbxContactsInfo.SelectedIndex].Email;
 
+            //lblTitle.Text = "Search, Edit Or Remove Contact";
+            //grpContact.Text = "Edit Contact";
+            //lblContactList.Text = " My Contacts: " + myContacts.Count;
+            //BtnLbxIndex();         
             lblTitle.Text = "Search, Edit Or Remove Contact";
             grpContact.Text = "Edit Contact";
-            lblContactList.Text = " My Contacts: " + myContacts.Count;
-            BtnLbxIndex();         
-        }
-
-        private void btnSearch_Click(object sender, EventArgs e)
-        {   
-            cbxSortBy.SelectedIndex = -1;
-            if (cbxSearch.SelectedIndex == -1)
+            BtnLbxIndex();
+            if (mySearch)
             {
-                MessageBox.Show("Choose an index to search");
+                if (lbxContactsInfo.SelectedIndex == -1) return;
+                tbxName.Text = mySearchContacts[lbxContactsInfo.SelectedIndex].Name;
+                tbxAdress.Text = mySearchContacts[lbxContactsInfo.SelectedIndex].Adress;
+                tbxZipCode.Text = mySearchContacts[lbxContactsInfo.SelectedIndex].ZipCode;
+                tbxCity.Text = mySearchContacts[lbxContactsInfo.SelectedIndex].City;
+                tbxPhoneNr.Text = mySearchContacts[lbxContactsInfo.SelectedIndex].PhoneNr;
+                tbxEmail.Text = mySearchContacts[lbxContactsInfo.SelectedIndex].Email;
+                lblContactList.Text = " Search Result: " + mySearchContacts.Count;
             }
             else
             {
-                MyListSortedBy(cbxSearch);
-                for (int i = lbxContactsInfo.Items.Count - 1; i >= 0; i--)
-                {
-                    if (lbxContactsInfo.Items[i].ToString().ToLower().Contains(tbxSearch.Text))
-                    {
-                        lbxContactsInfo.SetSelected(i, true);
-                    }
-                }
-                if (lbxContactsInfo.SelectedItems.Count == 0)
-                {
-                    MessageBox.Show("\t" + "Value: " + tbxSearch.Text + "\r\n\r\n Does Not Exist! In Your Contacts");
-                }
+                if (lbxContactsInfo.SelectedIndex == -1) return;
+                tbxName.Text = myContacts[lbxContactsInfo.SelectedIndex].Name;
+                tbxAdress.Text = myContacts[lbxContactsInfo.SelectedIndex].Adress;
+                tbxZipCode.Text = myContacts[lbxContactsInfo.SelectedIndex].ZipCode;
+                tbxCity.Text = myContacts[lbxContactsInfo.SelectedIndex].City;
+                tbxPhoneNr.Text = myContacts[lbxContactsInfo.SelectedIndex].PhoneNr;
+                tbxEmail.Text = myContacts[lbxContactsInfo.SelectedIndex].Email;
+                lblContactList.Text = " My Contacts: " + myContacts.Count;
             }
+
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            //cbxSortBy.SelectedIndex = -1;
+            //if (cbxSearch.SelectedIndex == -1)
+            //{
+            //    MessageBox.Show("Choose an index to search");
+            //}
+            //else
+            //{
+            //    MyListSortedBy(cbxSearch);
+            //    for (int i = lbxContactsInfo.Items.Count - 1; i >= 0; i--)
+            //    {
+            //        if (lbxContactsInfo.Items[i].ToString().ToLower().Contains(tbxSearch.Text))
+            //        {
+            //            lbxContactsInfo.SetSelected(i, true);
+            //        }
+            //    }
+            //    if (lbxContactsInfo.SelectedItems.Count == 0)
+            //    {
+            //        MessageBox.Show("\t" + "Value: " + tbxSearch.Text + "\r\n\r\n Does Not Exist! In Your Contacts");
+            //    }
+            //}
+
+            mySearch = true;
+            mySearchContacts.Clear();
+            lbxContactsInfo.Items.Clear();
+            var selection = myContacts.Where(x => x.Name.ToLower().Contains(tbxSearch.Text)).ToList();
+            mySearchContacts = selection;
+            selection.ForEach(x => lbxContactsInfo.Items.Add(x.Name));
         }
         private void cbxSortBy_SelectedIndexChanged(object sender, EventArgs e)
         {
